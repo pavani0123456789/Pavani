@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X=UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial=scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>"
+  <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+  <title>DP Shops</title>
+  <style>
+  </style>
+</head> 
+ <style>
+  body{
+    background-image:url('shopping.jpg');
+    background-repeat: no-repeat;
+  }
+  .mid input {
+    display: block;
+    width: 66%;
+    margin: -1302px 0px;
+    background-color: lightcoral;
+    padding: 6px;
+    border-radius: 8px;
+    overflow: inherit;
+    font-size: 16px;
+    visibility: visible5;
+}
+ </style>
+<body>
+  <nav class="navbar">
+    <div class="logo"><h1>DP Shops</h1></div>
+    <ul class="menu">
+      <li><a href="" class="active">Home</a></li>
+      <li><a href="">New Arrivals</a></li>    
+      <li><a href="">Fashion</a></li>
+      <li><a href="">Account</a></li>
+      <li><a href="">&#8801;</a></li>
+
+      <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>    
+    </ul>
+<!-- for response button-->        
+    <div class="menu-btn">
+      <i class="fa fa-bars"></i>
+    </div> 
+  </nav> 
+  
+  <section class="content">
+    <h1>New Arrivals for Men &women</h1>
+    <p>Get The Best Women Fashion Arrivals</p>
+    <button>shop Now</button>
+  </section>
+
+  <h1 class="pheading">Our Latest Products</h1>
+
+  <section class="sec">
+    <div class="products">
+
+      <!--card start-->
+      <div class="card">
+        <div class="img"><img src="1.png" alt=""></div>
+        <div class="desc">Women</div>
+        <div class="title">sleepers</div>
+        <div class="box">
+          <div class="price">$50</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+      <!--card end-->
+
+      <!--card start-->
+      <div class="card">
+        <div class="img"><img src="2.jpg" alt=""></div>
+        <div class="desc">Men</div>
+        <div class="title">watch</div>
+        <div class="box">
+          <div class="price">$100</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+      <!--card end-->
+      <div class="mid">
+        <input type="text" name="mytext" id="" placeholder="search here">
+      </div>
+
+      <!--card start-->
+      <div class="card">
+        <div class="img"><img src="3.png" alt=""></div>
+        <div class="desc">Men</div>
+        <div class="title">shoes</div>
+        <div class="box">
+          <div class="price">$200</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+      <!--card end-->
+
+      <!--card start-->
+      <div class="card">
+        <div class="img"><img src="4.png" alt=""></div>
+        <div class="desc">Men</div>
+        <div class="title">chain</div>
+        <div class="box">
+          <div class="price">$500</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+      <!--card end-->
+
+      <!--card start-->
+      <div class="card">
+        <div class="img"><img src="5.png" alt=""></div>
+        <div class="desc">Women</div>
+        <div class="title">Ear Rings</div>
+        <div class="box">
+          <div class="price">$100</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+      <!--card end-->
+
+      <!--card start-->
+      <div class="card">
+        <div class="img"><img src="6.png" alt=""></div>
+        <div class="desc">Women</div>
+        <div class="title">perfume</div>
+        <div class="box">
+          <div class="price">$150</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+      <!--card end-->
+
+      <!--card start-->
+      <div class="card">
+        <div class="img"><img src="7.png" alt=""></div>
+        <div class="desc">Women</div>
+        <div class="title">lipstick</div>
+        <div class="box">
+          <div class="price">$80</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+      <!--card end-->
+
+      <!--card start-->
+      <div class="card">
+        <div class="img"><img src="8.png" alt=""></div>
+        <div class="desc">All</div>
+        <div class="title">water bottles</div>
+        <div class="box">
+          <div class="price">$100</div>
+          <button class="btn">Buy Now</button>
+        </div>
+      </div>
+      <!--card end-->
+
+
+    </div>
+  </section>
+ 
+  <footer>
+    <p>Copyrights at <a href="">DP Shops</a></p>
+  </footer> 
+
+  <!--jquery-->
+  <script>
+    $(".menu-btn").click(function(){
+      $(".navbar .menu").toggleClass("active")
+      $(".menu-btn i").toggleclass("active");
+    });
+  </script>
+</body>
+</html>
